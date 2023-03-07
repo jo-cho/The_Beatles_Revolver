@@ -1,0 +1,15 @@
+﻿id,year,album,song,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,spotify_id,duration_ms,time_signature
+1,1966,Revolver,taxman,0.469,0.596,7,-8.348,1,0.0749,0.0101,0,0.321,0.783,133.586,4BRkPBUxOYffM2QXVlq7aC,158853,4
+2,1966,Revolver,eleanor rigby,0.581,0.28,4,-9.091,0,0.0381,0.936,0.0000156,0.305,0.813,137.831,5GjPQ0eI7AgmOnADn1EO6Q,126533,4
+3,1966,Revolver,im only sleeping,0.494,0.47,8,-9.599,0,0.0301,0.21,0,0.28,0.698,103.477,2ylCrFiBu98SC0vFfaCent,180320,4
+4,1966,Revolver,love you to,0.391,0.593,5,-8.999,1,0.0413,0.7,0.000249,0.0829,0.707,123.986,4RdJFhfLQcezwN5LsXl4qP,179827,4
+5,1966,Revolver,"here, there and everywhere",0.29,0.247,7,-12.125,1,0.0383,0.921,0.00565,0.0917,0.36,165.361,2B4Y9u4ERAFiMo13XPJyGP,144880,4
+6,1966,Revolver,yellow submarine,0.604,0.549,1,-9.873,1,0.0389,0.531,0,0.438,0.696,111.398,50xwQXPtfNZFKFeZ0XePWc,158880,4
+7,1966,Revolver,she said she said ,0.329,0.678,3,-7.878,1,0.0344,0.103,0.168,0.843,0.672,106.476,3VSuWxZM6x6V3ig5nYtikL,156040,4
+8,1966,Revolver,good day sunshine,0.77,0.496,11,-8.45,1,0.0468,0.719,0,0.123,0.571,117.331,7HTH1ppjkkOe7RLoBDKXYJ,129293,3
+9,1966,Revolver,and your bird can sing,0.555,0.65,4,-6.936,1,0.0282,0.0067,0.0491,0.236,0.966,132.59,4KRgqwb4kvBuTz1utbYxfb,120493,4
+10,1966,Revolver,for no one,0.483,0.351,1,-10.487,0,0.0278,0.783,0,0.115,0.713,81.208,1kDkaFlmkdEZiVUogaP9OZ,119813,4
+11,1966,Revolver,doctor robert,0.394,0.64,4,-8.992,1,0.0488,0.164,0.139,0.153,0.574,164.626,1ob06Ol8FMIPQgjpg7bMyk,134267,4
+12,1966,Revolver,I want to tell you,0.493,0.525,9,-9.289,1,0.0315,0.182,0.0000044,0.148,0.449,127.492,7orb0y6ySGdsYZywMoQtsD,147973,4
+13,1966,Revolver,got to get you into my life,0.521,0.524,0,-6.136,1,0.0302,0.42,0.00000927,0.0838,0.711,136.679,3tGhRLgcCP6SIZU3tbGl7l,149240,4
+14,1966,Revolver,tomorrow never knows,0.38,0.829,5,-6.105,1,0.0405,0.000084,0.00208,0.342,0.0534,125.887,00oZhqZIQfL9P5CjOP6JsO,179547,4
