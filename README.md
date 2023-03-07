@@ -4,7 +4,7 @@
 
 
 ***TO-DOs***
-- guess vocal (john, paul, george, or ringo)
+- which feature can identify a lead vocal (john, paul, george, or ringo)
 - lyric map
-- spotify
+- spotify features and audio features
 - ...
