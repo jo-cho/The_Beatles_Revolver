@@ -2,6 +2,15 @@
 
 *Revolver* is the seventh studio album by the English rock band the Beatles.
 
+## Data: What we have here
+- Spotify Features
+- Audio Features
+- Audio Features by Instrument(vocal,bass,drum,other)
+- Other Metadata
+
+
+
+## What can we do with the data?
 
 ***TO-DOs***
 - Identify a lead vocal (john, paul, george, or ringo) - SINGER IDENTIFICATION
