@@ -13,7 +13,7 @@
 ## What can we do with the data?
 
 ***TO-DOs***
-- Identify a lead vocal (john, paul, george, or ringo) - SINGER IDENTIFICATION
+- See what features can identify a lead vocal (john, paul, george, or ringo) of each song - SINGER IDENTIFICATION
   - Use unsupervised learning to distinguish the vocals. Is it possible with spectral features?
   - Of course you can train a ML/DL model on the whole Beatles vocal data and test to identify the vocals. But it's too common thing.
 - Analyze drums patterns
