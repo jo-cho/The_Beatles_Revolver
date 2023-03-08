@@ -4,9 +4,20 @@
 
 ## Data: What we have here
 - Spotify Features
+  - Extracted with *spotipy*
+  - 
 - Audio Features
+  - Extracted with *ftrosa*, *librosa*
 - Audio Features by Instrument(vocal,bass,drum,other)
+  - Source-separated by *HD Demucs* model
+  - Extracted with *ftrosa*, *librosa*
+- Annotations Data
+  - Structure
+  - Key
 - Other Metadata
+  - Lyrics
+  - Lead Vocals
+  - Producer
 
 
 
