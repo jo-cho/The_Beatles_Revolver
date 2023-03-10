@@ -6,7 +6,7 @@
 
 *Revolver* is the seventh studio album by the English rock band the Beatles.
 
-Streaming on:
+You can listen to it on (link):
 
 [<img src="https://user-images.githubusercontent.com/52461409/223929644-e0013f84-8415-4223-a112-9533ccd1f64f.png" width="100">](https://open.spotify.com/album/3PRoXYsngSwjEQWR5PsHWR?si=z78W-dP1TICA_Ht0zolLAg)
 
@@ -15,37 +15,45 @@ Streaming on:
 # Data
 - Spotify Features
   - Extracted with [*spotipy*](https://github.com/spotipy-dev/spotipy) package
-- Audio Features
-  - Extracted with [*ftrosa*](https://github.com/jo-cho/ftrosa) package, [*librosa*](https://github.com/librosa/librosa) package
-- Audio Features by Different Instrument(vocal,bass,drum,other)
-  - Source-separated by [*Hybrid Transformer Demucs*](https://github.com/facebookresearch/demucs) model
-  - Extracted with [*ftrosa*](https://github.com/jo-cho/ftrosa) package, [*librosa*](https://github.com/librosa/librosa) package
+- Audio Wave
+  - 14 songs in .wav files
+  - Not uploaded in this repo due to a copyright issue
 - Annotations Data ([*source*](http://isophonics.net/content/reference-annotations-beatles))
-  - Structure in csv
-  - Key in csv
+  - Structures in csv
+  - Keys in csv
 - Other Metadata ([*source*](https://www.kaggle.com/datasets/bvinning/uk-studio-albums-by-the-beatles))
   - Lyrics
   - Lead vocals, writers
 
 
-
 ## What I did with this album:
+- Source Separation
+  - Separate music into four sources: vocal, bass, drum, and other
+  - Use pre-trained [*Hybrid Transformer Demucs*](https://github.com/facebookresearch/demucs) model (using deep neural networks)
+  
+- Audio Feature Extraction
+  - Extract audio features such as mean, variance, minimum, and maximum values of spectrogram features, mfccs, zcr, rmse, chromagram features, and tempo features
+  - Use [*ftrosa*](https://github.com/jo-cho/ftrosa) package which is based on [*librosa*](https://github.com/librosa/librosa)
+
+- Melody Extraction and Transcription: extracting a main melody of each song
+  - Get F0(fundamental frequency) of main vocal melody
+  - Piano Transcription of the melodies. (*in progress*)
+
+--- 
 
 ***TO-DOs***
 - Harmony Parts
   - Singer Identification: identifying a lead vocal (John, Paul, George, or Ringo) of each song
     - Use unsupervised learning to distinguish the vocals. Is it possible with spectral features?
-    - Or you can train a ML/DL model on the whole Beatles vocal data and test to identify the vocals.
-  - Melody Extraction: extracting a main melody of each song
-    - Get F0(frequency) pitch contour
-    - Transcribe the vocal melodies to notes.
-  - Key Detection: detecting chords, keys of each song
-    - Chord recognition
+    - Or you can train a ML/DL model on the other Beatles vocal data and test to identify the vocals.
+  - Chord recognition: detecting chords, keys of each song
 - Rhythm Parts
   - Drum Pattern Anaylsis
   - Beat tracking
-    - Get BPM, detect onset, transcribe to drum midi.
+    - Get BPM, detect onset
+    - Drum Transcription
 - Structural Parts
+  - Structure Analysis and Segmentation
 - Lyrics Parts
   - Lyric map
 - ... and I'll come up with more ideas.
