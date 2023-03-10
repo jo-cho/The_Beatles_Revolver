@@ -37,8 +37,11 @@ You can listen to it on (link):
 
 - Melody Extraction and Transcription: extracting a main melody of each song
   - Get F0(fundamental frequency) of main vocal melody
-  - Piano Transcription of the melodies. (*in progress*)
-
+  - Piano transcription of the melodies. (*in progress*)
+  
+- Lyrics Parts
+  - Create lyric wordcloud with sentiment analysis
+  - Use [*wordcloud*](https://github.com/amueller/word_cloud) and [*nltk*](https://github.com/nltk/nltk)
 --- 
 
 ***TO-DOs***
@@ -54,6 +57,5 @@ You can listen to it on (link):
     - Drum Transcription
 - Structural Parts
   - Structure Analysis and Segmentation
-- Lyrics Parts
-  - Lyric map
+
 - ... and I'll come up with more ideas.
