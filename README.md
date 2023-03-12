@@ -1,8 +1,9 @@
-*IN PROGRESS...*
+*...IN PROGRESS...*
 
 
 # The Beatles - *Revolver* (1966)
-![image](https://user-images.githubusercontent.com/52461409/223927735-bff9ebe0-c3bd-4009-91f5-a67a85c2e058.png)
+
+<img src="https://user-images.githubusercontent.com/52461409/224525369-93260719-8aa2-4a24-ad16-a38e91c6bfb4.png" height="300"> <img src="https://user-images.githubusercontent.com/52461409/224525278-3f8f94fb-ade0-4949-b415-7e71f14b09ff.png" height="300">
 
 *Revolver* is the seventh studio album by the English rock band the Beatles.
 
